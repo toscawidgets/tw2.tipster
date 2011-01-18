@@ -39,6 +39,7 @@ function nextTip(selector) {
 
 
         var span = '<span class="ui-icon ui-icon-info" style="float: left; margin-left: .3em; margin-right: .3em;"></span>';
+        $('#'+selector).hide();
         $('#'+selector).html('<p>' + span + '<strong>Tip:</strong> ' + content + '</p>' + controls);
-
+        $('#'+selector).slideDown('slow');
 }
