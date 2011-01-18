@@ -7,7 +7,7 @@ setup(
     author='Ralph Bean',
     author_email='ralph.bean@gmail.com',
     license='MIT',
-    url='',
+    url='http://github.com/ralphbean/tw2.tipster',
     install_requires=[
         "tw2.jquery.plugins.ui",
         ## Add other requirements here
