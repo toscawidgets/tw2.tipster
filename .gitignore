@@ -1,0 +1,17 @@
+venv-apply
+*.pyc
+*.swp
+ez_setup
+devdata.db
+tw2*
+virtualenv-apply
+devdata.db*
+data
+build
+dist
+apply/public/photos/*.jpg
+doc/build
+*.egg
+apply.egg-info
+somedb.db
+apply/templates/usr
