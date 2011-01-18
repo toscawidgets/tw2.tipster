@@ -3,7 +3,6 @@ venv-apply
 *.swp
 ez_setup
 devdata.db
-tw2*
 virtualenv-apply
 devdata.db*
 data
@@ -15,3 +14,4 @@ doc/build
 apply.egg-info
 somedb.db
 apply/templates/usr
+tw2.tipster.egg-info
