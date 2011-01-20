@@ -18,8 +18,6 @@ function closeTip(selector) {
 }
 function stopTips(selector) {
         closeTip(selector);
-        console.log('trying');
-        console.log(window._tipster[selector]['stopTipsURL']);
         $.getJSON(window._tipster[selector]['stopTipsURL']);
 }
 function nextTip(selector) {
