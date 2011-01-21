@@ -15,7 +15,7 @@ class TipsterWidget(tw2_jq_ui.JQueryUIWidget):
     resources = [
         tw2.jquery.jquery_js,
         tw2_jq_ui.jquery_ui_js, tw2_jq_ui.jquery_ui_css,
-        base.tipster_js
+        base.tipster_js, base.tipster_css
     ]
     template = "mako:tw2.tipster.templates.tipster"
 

@@ -27,7 +27,7 @@ function nextTip(selector) {
         var stopTipsURL = window._tipster[selector]['stopTipsURL'];
         var content = window._tipster[selector]['tips'][i];
 
-        var controls = '<div style="font-size: 75%; padding-bottom: 5px; padding-right: 5px; text-align: right;">';
+        var controls = '<div class="tipster_controls">';
         if ( stopTipsURL ) {
                 controls += '<a href="javascript:stopTips(\'' + selector.replace(/:/g, '\\:') + '\');">(don\'t show me tips)</a>&nbsp;';
         }
