@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='tw2.tipster',
-    version='2.0b6',
+    version='2.0b7',
     description='Tips for your website :)',
     author='Ralph Bean',
     author_email='ralph.bean@gmail.com',
     license='MIT',
     url='http://github.com/ralphbean/tw2.tipster',
     install_requires=[
-        "tw2.jquery.plugins.ui",
+        "tw2.jqplugins.ui",
         ## Add other requirements here
         # "Genshi",
         ],
