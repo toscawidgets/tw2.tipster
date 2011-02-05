@@ -3,7 +3,7 @@ import tw2.core as twc
 
 import tw2.jquery
 import tw2.jquery.base as tw2_jq_c_b
-import tw2.jquery.plugins.ui.base as tw2_jq_ui
+import tw2.jqplugins.ui.base as tw2_jq_ui
 
 import formencode.validators as fv
 import base
