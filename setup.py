@@ -24,6 +24,7 @@ setup(
         # formencode isn't actually needed, but is just here to patch up
         # tw2.forms
         'formencode',
+        'strainer',
     ],
     test_suite = 'nose.collector',
     entry_points="""
