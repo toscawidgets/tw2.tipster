@@ -5,7 +5,7 @@ setup(
     version='2.0b8',
     description='Tips for your website :)',
     author='Ralph Bean',
-    author_email='ralph.bean@gmail.com',
+    author_email='rbean@redhat.com',
     license='MIT',
     url='http://github.com/toscawidgets/tw2.tipster',
     install_requires=[
