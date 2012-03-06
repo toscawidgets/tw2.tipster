@@ -7,7 +7,7 @@ setup(
     author='Ralph Bean',
     author_email='ralph.bean@gmail.com',
     license='MIT',
-    url='http://github.com/ralphbean/tw2.tipster',
+    url='http://github.com/toscawidgets/tw2.tipster',
     install_requires=[
         "tw2.jqplugins.ui",
         "mako"
