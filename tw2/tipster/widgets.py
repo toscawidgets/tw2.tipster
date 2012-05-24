@@ -5,10 +5,7 @@ import tw2.jquery
 import tw2.jquery.base as tw2_jq_c_b
 import tw2.jqplugins.ui.base as tw2_jq_ui
 
-import formencode.validators as fv
 import base
-
-_pager_defaults = {'enableSearch': True, 'enableClear': True, 'gridModel': True}
 
 
 class TipsterWidget(tw2_jq_ui.JQueryUIWidget):
@@ -28,4 +25,3 @@ class TipsterWidget(tw2_jq_ui.JQueryUIWidget):
     def prepare(self):
         self._tips = encoder.encode(self.tips)
         super(TipsterWidget, self).prepare()
-
