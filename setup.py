@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='tw2.tipster',
-    version='2.0b8',
+    version='2.0b9',
     description='Tips for your website :)',
     author='Ralph Bean',
     author_email='rbean@redhat.com',
